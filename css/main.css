@@ -1,0 +1,84 @@
+body{
+    background-color: #bdc3c7;
+}
+.container{
+    margin: 0% auto;
+    padding: 0 10%;    
+}
+header{
+    background-color: #f39c12;
+}
+header ul{
+    display: flex;
+    justify-content: left;
+}
+header ul li{
+    padding: 2% 3%;
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+header ul li a{
+    color: #ecf0f1;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+main{
+    margin: 2% 0;
+}
+.canvas-block{
+    background-color: #fff;
+    width: 80%;
+    height: 80vh;
+}
+.canvas-block canvas{
+    display: block;
+    cursor: pointer;
+}
+
+
+.inf-block{
+    width: 20%;
+}
+.inf-block .inf-element{
+    width: 100%;
+    padding: 0 10%;
+    margin-bottom: 5%;
+    font-family: sans-serif;
+}
+.inf-block .inf-element .name-element{
+    font-size: 1.5rem;
+    padding: 3% 0%;
+}
+.inf-block .inf-element button{
+    background-color: #f39c12;
+    color: #fff;
+    border-radius: 4%;
+    padding: 8% 20%;
+    font-size: 1.5rem;
+}
+.inf-block .inf-element button:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.about{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    line-height: 2.5rem;
+}
+.about a{
+    color: #f39c12;
+    font-weight: bold;
+}
+.about h1{
+    font-size: 2rem;
+    padding-bottom: 3%;
+}
+.about h2{
+    font-size: 1.7rem;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}

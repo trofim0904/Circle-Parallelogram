@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/nullstyle.css">
+    <link rel="stylesheet" href="css/main.css"> 
+    <link rel="shortcut icon" href="img/circle.png" type="image/png">
+    <title>Parallelogram & Circle</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <ul>
+                <li style="padding-left: 0%;">Parallelogram & Circle</li>
+                <li><a href="index.html">Draw</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="container" style="display: flex;">
+            <div class="canvas-block" id="canblock">
+                <canvas id="canvas">ERROR</canvas>
+            </div>
+            <div class="inf-block">
+                <div class="inf-element">
+                    <p class="name-element">Point1:</p>
+                    <p class="value-element" id="point1"></p>
+                </div>
+                <div class="inf-element">
+                    <p class="name-element">Point2:</p>
+                    <p class="value-element" id="point2"></p>
+                </div>
+                <div class="inf-element">
+                    <p class="name-element">Point3:</p>
+                    <p class="value-element" id="point3"></p>
+                </div>
+                <div class="inf-element">
+                    <p class="name-element">Point4:</p>
+                    <p class="value-element" id="point4"></p>
+                </div>
+                <div class="inf-element">
+                    <p class="name-element">Centre point:</p>
+                    <p class="value-element" id="centrePoint"></p>
+                </div>
+                <div class="inf-element">
+                    <p class="name-element">S:</p>
+                    <p class="value-element" id="s"></p>
+                </div>
+                <div class="inf-element">
+                    <button onclick="clearCanvas()">Reset</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script type="text/javascript" src="js/drawscript.js"></script>
+</body>
+</html>
